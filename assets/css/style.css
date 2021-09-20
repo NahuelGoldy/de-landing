@@ -1154,6 +1154,18 @@ section {
 	border-radius: 50%;
 }
 
+@media (min-width: 575px) and (max-width: 992px) {
+	.team .member .pic {
+		max-width: 120px !important;
+	}
+}
+
+@media (max-width: 574px) {
+	.team .member .pic {
+		max-width: 80px !important;
+	}
+}
+
 .team .member .pic img {
 	transition: ease-in-out 0.3s;
 }
